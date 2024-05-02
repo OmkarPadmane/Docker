@@ -1,0 +1,8 @@
+make folder in system in that :
+  -Docker and ex.py files
+in terminal :
+  -cd that folder:
+  create image:
+    -sudo docker build -t m2 .
+  create container:
+    -sudo docker run --name sh3 -it m2 
