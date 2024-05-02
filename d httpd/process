@@ -8,3 +8,5 @@ in terminal :
     - sudo docker run --name z444  -p 80:80 -it a4
 in new terminal:
     - curl localhost:80
+in browser
+    - localhost
