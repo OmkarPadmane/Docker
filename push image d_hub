@@ -1,7 +1,26 @@
 
+login in docker
+  username :omkarpadmane
+  pass : ^Docker&24
+
+  create ripository in docker
+
+make folder in system in that :
+  -Docker and ex.py files
+in terminal :
+  -cd that folder:
+  create image:
+    -sudo docker build -t m2 .
+
+create container:
+    -sudo docker run --name sh3 -it m2 
+
 sudo docker images
 sudo docker ps -a
 sudo docker tag a4:latest omkarpadmane/aa
 sudo docker images
 sudo docker push omkarpadmane/aa:latest
 
+
+create container:
+    -sudo docker run --name sh3 -it m2 
