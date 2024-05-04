@@ -1,0 +1,20 @@
+make repo in local system in that :
+  
+in terminal :
+  -cd that folder:
+   -service.yaml
+        - write code
+
+
+
+
+   - docker-compose -f services.yaml up -d
+   - docker-compose -f services.yaml ps -a
+   - docker-compose -f services.yaml scale web1=5
+   - docker-compose -f services.yaml ps -a
+   - docker-compose -f services.yaml pause
+   - docker-compose -f services.yaml ps -a
+   - docker-compose -f services.yaml unpause
+   - docker-compose -f services.yaml ps -a
+   - docker-compose -f services.yaml down
+  
