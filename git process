@@ -1,0 +1,15 @@
+mkdir om
+cd om
+git init
+vim hi.py
+  <h1>hi</h1>
+
+git add .
+git commit -m "1"
+git push link  (link avail in git code)
+  enter username : OmkarPadmane
+  enter pass : git token
+git branch    (chek according to it in git)
+mkdir clone
+cd clone
+git copy link    (link avail in git code)
