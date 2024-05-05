@@ -1,0 +1,10 @@
+services:
+  web1:
+    image: httpd
+    ports:
+      - "9000:80"
+  web2:
+    image: curlimages/curl
+    command: sh -C "curl http://172.16.0.9:9000"
+    depends_on:
+      - "web1"                
