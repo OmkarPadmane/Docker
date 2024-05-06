@@ -5,7 +5,7 @@ in terminal :
   create image:
     - sudo docker build -t m2 .
   create container:
-    - sudo docker run --name z444  -p 80:80 -it a4
+    - sudo docker run --name z444  -p 80:80 -it m2
 in new terminal:
     - curl localhost:80
 in browser
